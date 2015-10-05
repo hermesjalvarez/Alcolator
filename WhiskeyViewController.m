@@ -14,6 +14,22 @@
 
 @implementation WhiskeyViewController
 
+- (IBAction)sliderValueDidChange:(UISlider *)sender {
+    
+    //repeats code from elsewhere, I could create a method to simplify but wont
+    int numberOfBeers = self.beerCountSlider.value;
+    int ouncesInOneBeerGlass = 12;  //assume they are 12oz beer bottles
+    float alcoholPercentageOfBeer = [self.beerPercentTextField.text floatValue] / 100;
+    float ouncesOfAlcoholPerBeer = ouncesInOneBeerGlass * alcoholPercentageOfBeer;
+    float ouncesOfAlcoholTotal = ouncesOfAlcoholPerBeer * numberOfBeers;
+    float ouncesInOneWhiskeyGlass = 1;  // a 1oz shot
+    float alcoholPercentageOfWhiskey = 0.4;  // 40% is average
+    float ouncesOfAlcoholPerWhiskeyGlass = ouncesInOneWhiskeyGlass * alcoholPercentageOfWhiskey;
+    float numberOfWhiskeyGlassesForEquivalentAlcoholAmount = ouncesOfAlcoholTotal / ouncesOfAlcoholPerWhiskeyGlass;
+    
+    self.navigationItem.title = [NSString stringWithFormat:@"Whiskey (%0.1f shots)",numberOfWhiskeyGlassesForEquivalentAlcoholAmount];
+}
+
 - (void)buttonPressed:(UIButton *)sender;
 {
     [self.beerPercentTextField resignFirstResponder];
