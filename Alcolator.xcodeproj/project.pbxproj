@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A12D3DDD1BC2020E009A7E86 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12D3DDC1BC2020E009A7E86 /* MainMenuViewController.m */; };
 		A17734CD1BC17BB700892FD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A17734CC1BC17BB700892FD6 /* main.m */; };
 		A17734D01BC17BB700892FD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A17734CF1BC17BB700892FD6 /* AppDelegate.m */; };
 		A17734D31BC17BB700892FD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17734D21BC17BB700892FD6 /* ViewController.m */; };
@@ -29,8 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A12D3DDB1BC2020E009A7E86 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
-		A12D3DDC1BC2020E009A7E86 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		A17734C71BC17BB700892FD6 /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17734CB1BC17BB700892FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A17734CC1BC17BB700892FD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,8 +88,6 @@
 				A17734CF1BC17BB700892FD6 /* AppDelegate.m */,
 				A17734D11BC17BB700892FD6 /* ViewController.h */,
 				A17734D21BC17BB700892FD6 /* ViewController.m */,
-				A12D3DDB1BC2020E009A7E86 /* MainMenuViewController.h */,
-				A12D3DDC1BC2020E009A7E86 /* MainMenuViewController.m */,
 				A17734F01BC193FC00892FD6 /* WhiskeyViewController.h */,
 				A17734F11BC193FC00892FD6 /* WhiskeyViewController.m */,
 				A17734D41BC17BB700892FD6 /* Main.storyboard */,
@@ -233,7 +228,6 @@
 				A17734F21BC193FC00892FD6 /* WhiskeyViewController.m in Sources */,
 				A17734D01BC17BB700892FD6 /* AppDelegate.m in Sources */,
 				A17734CD1BC17BB700892FD6 /* main.m in Sources */,
-				A12D3DDD1BC2020E009A7E86 /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
